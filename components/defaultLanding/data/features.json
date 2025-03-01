@@ -1,0 +1,47 @@
+[
+  {
+    "name": "AI-Powered College Recruiting",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "icon": "BoltIcon"
+  },
+  {
+    "name": "Athlete Profile",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "icon": "EnvelopeIcon"
+  },
+  {
+    "name": "Powerful Search",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "icon": "MagnifyingGlassIcon"
+  },
+  {
+    "name": "Developmental Coaching",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "icon": "PencilIcon"
+  },
+  {
+    "name": "NIL Deal Finder",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "icon": "CurrencyDollarIcon"
+  },
+  {
+    "name": "Update account",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "icon": "UserCircleIcon"
+  },
+  {
+    "name": "Invite users to the team",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "icon": "UserPlusIcon"
+  },
+  {
+    "name": "Manage team members",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "icon": "UsersIcon"
+  },
+  {
+    "name": "Update team settings",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "icon": "Cog6ToothIcon"
+  }
+]
