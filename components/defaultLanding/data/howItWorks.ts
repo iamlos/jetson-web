@@ -44,8 +44,8 @@ export const howItWorksData = {
       title: "Automated Outreach ...",
       subtitle: "Making meaningful connections is easy with AI.",
       description: "Personalized email campaigns to coaches, Smart follow-up communication, In-platform messaging with college programs",
-      // image: "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/480710427_122106215810766927_6393046521978187827_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jrPbfm_PZxQQ7kNvgHhnaqj&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=Arnqp3KBsKa7DAXnF1NHdTG&oh=00_AYDGfmE9JPjn-WxvtSlOhfCmezXD0esnN4qlsAMbGK2UVA&oe=67BF3EC5"
-      image: "bg/"
+      image: "/dashboard/athleteCollegeSearchAutofill.png"
+      // image: "bg/"
     }
   ]
 };

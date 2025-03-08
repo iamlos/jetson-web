@@ -2,7 +2,7 @@ import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import React from 'react';
 import dynamic from 'next/dynamic';
-import AnimatedText from './AnimatedText';
+import AnimatedText from './AnimateeText';
 import Image from 'next/image';
 import MuxPlayer from '@mux/mux-player-react';
 
@@ -11,11 +11,11 @@ const HeroSection = () => {
   return (
     <div className="container bg-[url('/bg/grid_straight.svg')] bg-cover bg-center opacity-90"> 
       <div className="flex flex-col justify-center items-center py-12 mx-auto w-full h-full">
-        <h1 className="py-8 text-8xl text-center text-white semi-bold leading-1">
-          College Sports <span className="text-[#56F699] font-bold ">Recruiting </span> <br />on Auto-pilot
+        <h1 className="py-8 text-8xl text-center text-white semi-bold leading-1 text-[clamp(3rem,5vw,4.5rem)]">
+          College Sports <span className="text-[#56F699] font-bold ">Recruiting </span> <br />on Autopilot
         </h1>
         
-        <div className="mb-4 text-xl text-white pyb-10">
+        <div className="mb-4 text-2xl text-white pyb-10">
           {/* <AnimatedText /> */}
           <p className="text-center text-white">
             We make connecting with coaches, getting scholarships,<br />earning more from NILs, easier with our Ai powered platform.

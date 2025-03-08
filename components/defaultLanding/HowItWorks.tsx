@@ -75,8 +75,8 @@ const HowItWorks = () => {
                   <Image
                     src={step.image}
                     alt={`Step ${step.id} visualization`}
-                    width={1200}
-                    height={600}
+                    width={1024}
+                    height={512}
                     unoptimized={true}
                     className="w-full rounded-lg"
                   />

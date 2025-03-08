@@ -9,9 +9,9 @@ const HeaderLandingPage = () => {
   const { t } = useTranslation('common');
 
   return (
-    <div className="px-6 py-4 bg-transparent border-0 navbar sm:px-1">
-      <div className="flex-1 flex items-center">
-        <Link href="/" className="flex items-center gap-2">
+    <div className="px-4 py-1 bg-transparent border-0 chrsis123 navbar sm:px-1">
+      <div className="flex flex-1 items-center">
+        <Link href="/" className="flex gap-2 items-center">
           <Image
             src="/brand/jetson_logo.svg"
             alt="Jetson Logo"

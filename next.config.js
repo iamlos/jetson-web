@@ -30,9 +30,21 @@ const nextConfig = {
       },
       {
         protocol: 'http',
+        hostname: 'localhost',
+        port: '4002',
+        pathname: '/dashboard/**',
+      },
+      {
+        protocol: 'http',
         hostname: '192.168.254.45',
         port: '4002', 
         pathname: '/highlights/**',
+      },
+      {
+        protocol: 'http',
+        hostname: '192.168.254.45',
+        port: '4002', 
+        pathname: '/dashboard/**',
       },
       {
         protocol: 'https',

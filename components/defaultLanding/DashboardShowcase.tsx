@@ -36,7 +36,7 @@ const DashboardShowcase = () => {
                       height={630}
                       className="object-cover rounded-lg drop-shadow-2xl"
                       unoptimized={true}
-                      sizes="(max-width: 360px) 90vw, (max-width: 768px) 80vw, (max-width: 1200px) 80vw, 1200px"
+                      sizes="(max-width: 360px) 90vw, (max-width: 768px) 80vw, (max-width: 1024px) 80vw, 1024px"
                     />
                   </div>
                 </div>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { type ReactElement } from 'react';
 import { useTranslation } from 'next-i18next';
 import type { NextPageWithLayout } from 'types';
@@ -24,6 +25,10 @@ import EduScholarshipSection from '@/components/defaultLanding/EduScholarshipSec
 import ComplianceFooter from '@/components/compliance/Footer';
 import PartnerFooter from '@/components/defaultLanding/PartnerFooter';
 import FeaturedSectionMid from '@/components/defaultLanding/FeaturedSectionMid';
+import SalesParagraphSection from '@/components/defaultLanding/SalesParagraphSection';
+import CostSavingsSection from '@/components/defaultLanding/CostSavingsSection';
+import GreenPromoSection from '@/components/defaultLanding/GreenPromoSection';
+import HeaderSection from '@/components/defaultLanding/HeaderSection';
 
 const Home: NextPageWithLayout = () => {
   const { toggleTheme, selectedTheme } = useTheme();
@@ -37,46 +42,15 @@ const Home: NextPageWithLayout = () => {
 
       <div className="min-h-screen" style={{ backgroundColor: '#10111D' }}>
         <div className="container mx-auto">
-          <div className="px-6 py-4 bg-transparent navbar sm:px-1">
-            <div className="flex-1">
-              <Link href="/" className="text-xl normal-case">
-                {t('company-name')}
-              </Link>
-            </div>
-            <div className="flex-none">
-             <ul className="flex gap-2 items-center menu menu-horizontal sm:gap-4">
-                {env.darkModeEnabled && (
-                  <li>
-                    <button
-                      className="flex justify-center items-center p-0 bg-none rounded-lg"
-                      onClick={toggleTheme}
-                    >
-                      <selectedTheme.icon className="w-5 h-5" />
-                    </button>
-                  </li>
-                )}
-                <li>
-                  <Link
-                    href="/auth/join"
-                    className="px-2 py-3 text-[#10111D] btn btn-primary btn-md sm:px-4"
-                  >
-                    {t('sign-up')}
-                  </Link>
-                </li>
-                {/* <li>
-                  <Link
-                    href="/auth/login"
-                    className="px-2 py-3 btn btn-primary dark:border-zinc-600 dark:border-2 dark:text-zinc-200 btn-outline sm:px-4 btn-md"
-                  >
-                    {t('sign-in')}
-                  </Link>
-                </li> */}
-              </ul> 
-            </div>
-          </div>
+          <HeaderSection />
           <HeroSection />
           <DecoLine />
-          <TestimonialTop />
+          <SalesParagraphSection />
+          {/* <TestimonialTop /> */}
+          <DecoLine />
+          {/* <SalesParagraphSection /> */}
+          <DecoLine />
+          <CostSavingsSection />
           <DecoLine />
           <DashboardShowcase />
 
@@ -85,7 +59,7 @@ const Home: NextPageWithLayout = () => {
           <DecoLine />
           <HowItWorks />
           <DecoLine />
-          
+
           <EduScholarshipSection />
           <DecoLine />
           <FeatureSection />
@@ -93,6 +67,9 @@ const Home: NextPageWithLayout = () => {
           {/* <TestimonialShowcase /> */}
           <FeaturedSectionMid />
           <DecoLine />
+          <GreenPromoSection />
+          <DecoLine />
+          
           {/* <PricingSection /> */}
           <ComparisonSection />
           <DecoLine />

@@ -6,8 +6,8 @@ export interface TestimonialTopData {
 }
 
 export const testimonialTopData: TestimonialTopData = {
-  quote: "In just 6 months, Et corrupti eius delectus alias minima .",
-  company: "placehold.com",
+  quote: "Those are just the guys for the job.",
+  company: "Tom Tom, IBM",
   role: "Ad Team",
-  image: "https://placehold.co/300x200@2x.png?auto=format&w=200"
+  // image: " "
 };

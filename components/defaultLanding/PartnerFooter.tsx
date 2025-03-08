@@ -18,7 +18,7 @@ const PartnerFooter = () => {
       <div className="container px-4 mx-auto">
         <div className="flex flex-col gap-4 justify-between items-center sm:flex-row">
           <div className="text-sm text-gray-400">
-            © 2002-{currentYear} Jetson Recruit AI All Rights Reserved
+            © 2024-{currentYear} Jetson Recruit AI All Rights Reserved
           </div>
           <div className="flex flex-wrap gap-4 justify-center items-center sm:gap-6">
             {complianceLinks.map((link) => (
